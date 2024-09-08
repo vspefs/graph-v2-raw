@@ -1,7 +1,7 @@
 #pragma once
 
-#include "graph/graph.hpp"
-#include "graph/views/incidence.hpp"
+#include "../graph.hpp"
+#include "../views/incidence.hpp"
 #include <queue>
 #include <algorithm>
 

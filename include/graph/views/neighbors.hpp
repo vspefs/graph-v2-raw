@@ -1,6 +1,6 @@
 #pragma once
-#include "graph/graph.hpp"
-#include "graph/graph_utility.hpp"
+#include "../graph.hpp"
+#include "../graph_utility.hpp"
 
 //
 // neighbors(g,uid)       -> neighbor_descriptor<VId,false,E,VV>    -> {target_id, vertex&}

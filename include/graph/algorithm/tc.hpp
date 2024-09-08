@@ -13,7 +13,7 @@
  *   Kevin Deweese
  */
 
-#include "graph/graph.hpp"
+#include "../graph.hpp"
 
 #ifndef GRAPH_TC_HPP
 #  define GRAPH_TC_HPP

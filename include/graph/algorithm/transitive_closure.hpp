@@ -1,8 +1,8 @@
 #pragma once
 
-#include "graph/graph.hpp"
-#include "graph/views/vertexlist.hpp"
-#include "graph/views/incidence.hpp"
+#include "../graph.hpp"
+#include "../views/vertexlist.hpp"
+#include "../views/incidence.hpp"
 #include <vector>
 
 namespace graph {

@@ -1,8 +1,8 @@
 #pragma once
 
-#include "graph/graph.hpp"
-#include "graph/views/incidence.hpp"
-#include "graph/detail/co_generator.hpp"
+#include "../../graph.hpp"
+#include "../../views/incidence.hpp"
+#include "../../detail/co_generator.hpp"
 #include "bfs_cmn.hpp"
 
 #include <variant>

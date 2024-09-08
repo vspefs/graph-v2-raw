@@ -1,6 +1,6 @@
 #pragma once
 
-#include "graph/algorithm/experimental/co_cmn.hpp"
+#include "../../algorithm/experimental/co_cmn.hpp"
 
 /*
 * coroutine notes

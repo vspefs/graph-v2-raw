@@ -1,6 +1,6 @@
 #pragma once
-#include "graph/graph.hpp"
-#include "graph/graph_utility.hpp"
+#include "../graph.hpp"
+#include "../graph_utility.hpp"
 #include <functional>
 //
 // vertexlist(g)       -> vertex_descriptor<VId,V,VV> -> {id, vertex& [,value]}

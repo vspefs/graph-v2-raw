@@ -1,7 +1,8 @@
 #pragma once
 
 // (included from graph.hpp)
-#include "graph/graph_descriptors.hpp"
+#include "../graph_descriptors.hpp"
+#include <type_traits>
 
 #ifndef GRAPH_CPO_HPP
 #  define GRAPH_CPO_HPP

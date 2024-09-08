@@ -13,9 +13,9 @@
  *   Kevin Deweese
  */
 
-#include "graph/graph.hpp"
-#include "graph/edgelist.hpp"
-#include "graph/views/edgelist.hpp"
+#include "../graph.hpp"
+#include "../edgelist.hpp"
+#include "../views/edgelist.hpp"
 #include <queue>
 
 #ifndef GRAPH_MST_HPP

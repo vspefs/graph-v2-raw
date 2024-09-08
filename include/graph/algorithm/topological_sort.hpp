@@ -10,14 +10,14 @@
  * @authors
  */
 
-#include "graph/graph.hpp"
-#include "graph/views/incidence.hpp"
+#include "../graph.hpp"
+#include "../views/incidence.hpp"
 
 #include <vector>
 #include <queue>
 #include <ranges>
 #include <limits>
-#include <fmt/format.h>
+#include <format>
 
 #ifndef GRAPH_TOPO_SORT_ALGO_HPP
 #  define GRAPH_TOPO_SORT_ALGO_HPP

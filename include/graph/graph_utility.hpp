@@ -3,7 +3,7 @@
 #include <ranges>
 #include <tuple>
 #include <vector>
-#include "graph/edgelist.hpp"
+#include "edgelist.hpp"
 
 namespace graph {
 

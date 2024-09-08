@@ -1,9 +1,9 @@
 #pragma once
 
-#include "graph/graph.hpp"
-#include "graph/views/incidence.hpp"
-#include "graph/detail/co_generator.hpp"
-#include "graph/algorithm/experimental/co_cmn.hpp"
+#include "../../graph.hpp"
+#include "../../views/incidence.hpp"
+#include "../../detail/co_generator.hpp"
+#include "../../algorithm/experimental/co_cmn.hpp"
 
 #include <variant>
 #include <queue>
@@ -11,6 +11,7 @@
 #include <ranges>
 #include <array>
 #include <cassert>
+#include <print>
 
 #ifndef GRAPH_CO_DIJKSTRA_CLRS_HPP
 #  define GRAPH_CO_DIJKSTRA_CLRS_HPP
@@ -220,7 +221,7 @@ Generator<bfs_value_t<dijkstra_events, G>> co_dijkstra(
   }
 
 #  if defined(ENABLE_POP_COUNT) || defined(ENABLE_EDGE_VISITED_COUNT)
-  fmt::print("dijkstra_with_visitor: pop_cnt = {:L}, edge_cnt = {:L}\n", pop_cnt, edge_cnt);
+  std::print("dijkstra_with_visitor: pop_cnt = {:L}, edge_cnt = {:L}\n", pop_cnt, edge_cnt);
 #  endif
 }
 

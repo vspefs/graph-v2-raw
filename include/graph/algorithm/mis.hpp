@@ -13,8 +13,8 @@
  *   Phil Ratzloff
  */
 
-#include "graph/graph.hpp"
-#include "graph/views/incidence.hpp"
+#include "../graph.hpp"
+#include "../views/incidence.hpp"
 
 #ifndef GRAPH_MIS_HPP
 #  define GRAPH_MIS_HPP

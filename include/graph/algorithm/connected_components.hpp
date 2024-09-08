@@ -14,11 +14,11 @@
  *   Kevin Deweese
  */
 
-#include "graph/graph.hpp"
-#include "graph/views/incidence.hpp"
-#include "graph/views/vertexlist.hpp"
-#include "graph/views/breadth_first_search.hpp"
-#include "graph/views/depth_first_search.hpp"
+#include "../graph.hpp"
+#include "../views/incidence.hpp"
+#include "../views/vertexlist.hpp"
+#include "../views/breadth_first_search.hpp"
+#include "../views/depth_first_search.hpp"
 #include <stack>
 
 #ifndef GRAPH_CC_HPP

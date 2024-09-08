@@ -1,6 +1,6 @@
 #pragma once
 
-#include "graph/edgelist.hpp"
+#include "../edgelist.hpp"
 
 namespace graph::container {
 
