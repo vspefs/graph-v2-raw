@@ -1,5 +1,6 @@
 #pragma once
 #include "../graph.hpp"
+#include "../graph_utility.hpp"
 
 //
 // edgelist(g)     -> edge_descriptor<VId,true,E,void> -> {source_id, target_id, edge&}

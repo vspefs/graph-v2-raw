@@ -16,7 +16,9 @@
 #include "../graph.hpp"
 #include "../edgelist.hpp"
 #include "../views/edgelist.hpp"
+#include "../views/incidence.hpp"
 #include <queue>
+#include <algorithm>
 
 #ifndef GRAPH_MST_HPP
 #  define GRAPH_MST_HPP

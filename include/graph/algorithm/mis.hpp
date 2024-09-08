@@ -15,6 +15,7 @@
 
 #include "../graph.hpp"
 #include "../views/incidence.hpp"
+#include "../views/vertexlist.hpp"
 
 #ifndef GRAPH_MIS_HPP
 #  define GRAPH_MIS_HPP
